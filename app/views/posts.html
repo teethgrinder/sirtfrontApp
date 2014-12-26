@@ -1,0 +1,12 @@
+<ul class="posts">
+  <li class="panel" ng-repeat="post in posts" >
+   
+ 
+   <p ng-bind-html="post.title"> </p>
+   <p ng-bind-html="post.content"> </p>
+   <p ng-bind-html="post.author"></p>
+  </li>
+</ul>
+
+<button ng-click='previousPage()'>Previous<button>
+<button ng-click='nextPage()'>Next<button>
